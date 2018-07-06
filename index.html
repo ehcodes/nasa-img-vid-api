@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NASA APOD</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  </head>
+  <body>
+    <header>
+      <img src="img/nasalogo.png" alt="nasa logo">
+    </header>
+    <section>
+      <h1>Astronomy Picture of the Day</h1>
+
+      <form class="" action="index.html" method="post">
+          <input id="dateInput" type="date" name="" value="" placeholder="YYYY-MM-DD:">
+          <input type="submit" name="" value="Submit">
+      </form>
+
+      <p>Date must be between Jun 16, 1995 and Jun 20, 2018.</p>
+      <img id="imageBlank" src="" alt="" class="hidden">
+      <iframe id="ifBlank" src="" frameborder="0" height="300" width="400" class="hidden"></iframe>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
